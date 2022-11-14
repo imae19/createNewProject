@@ -428,6 +428,10 @@
 						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35"
 					}
 				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"{{projectId}}\",\r\n  \"userId\": \"{{userId}}\",\r\n  \"workspaceId\": \"{{workspaceId}}\",\r\n  \"name\": \"Secret account\",\r\n  \"description\": \"Daddy can't know account\",\r\n  \"type\": \"DESIGN\",\r\n  \"created\": \"2022-11-14T00:37:51.025Z\",\r\n  \"lastModified\": \"2022-11-14T00:37:51.025Z\",\r\n  \"tags\": []\r\n}"
+				},
 				"url": {
 					"raw": "https://api.octoperf.com/design/projects/{{projectId}}",
 					"protocol": "https",
